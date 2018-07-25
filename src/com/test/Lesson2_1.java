@@ -1,6 +1,6 @@
 package com.test;
 
-public class Lesson2 {
+public class Lesson2_1 {
 
     /*
      *  CyclicRotation
@@ -14,16 +14,14 @@ public class Lesson2 {
         }
     }
 
-
     public static int[] solution(int[] A, int K) {
-
         int[] result = new int[A.length];
-
-
         if(A.length == 0) {
-            return result;
+            return A;
         }
-
+        if(K == 0) {
+            return A;
+        }
         while (K!=0) {
             result = swap(A, A.length);
             A = result;

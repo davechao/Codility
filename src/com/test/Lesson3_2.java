@@ -31,7 +31,6 @@ public class Lesson3_2 {
         }
 
         for(int i=0;i<A.length;i++) {
-
             if(i+1 != A[i]) {
                 missElem = i+1;
                 break;

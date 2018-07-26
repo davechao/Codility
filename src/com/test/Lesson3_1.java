@@ -12,7 +12,7 @@ public class Lesson3_1 {
 
     public static int solution(int X, int Y, int D) {
         int distance = Math.abs(X-Y);
-        
+
         if(distance % D == 0) {
             return distance / D;
         } else {

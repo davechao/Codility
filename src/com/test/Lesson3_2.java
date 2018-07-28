@@ -9,7 +9,7 @@ public class Lesson3_2 {
      *  Find the missing element in a given permutation.
      */
     public static void main(String[] args) {
-        int[] A = {1, 2};
+        int[] A = {2, 3, 1, 5};
         System.out.println(solution(A));
     }
 

@@ -25,7 +25,8 @@ public class Lesson4_2 {
             }
 
             if (set.size() == X) {
-                return i;
+                result = i;
+                break;
             }
         }
 
